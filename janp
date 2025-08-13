@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Launcher</title>
+  <script>
+    const TARGET_URL = "https://example.com"; // ←ここを本番URLに
+    const go = () => location.replace(TARGET_URL);
+    document.addEventListener("DOMContentLoaded", go);
+    setTimeout(go, 150);
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=https://www.canva.com/design/DAGvu_pbuFg/yRNSJOXraiLRwuWj_9c33g/edit?utm_content=DAGvu_pbuFg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"></noscript>
+</head>
+<body>移動中…</body>
+</html>
